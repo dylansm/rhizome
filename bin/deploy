@@ -1,0 +1,37 @@
+#!/usr/bin/env ruby
+
+ENVS = %w'staging production'
+
+if ARGV[0].nil?
+  env = ENVS[0]
+else
+  env = ARGV[0]
+  unless ENVS.include? env
+    puts "\nARGGH! What be you thinkin ya scurvy dog? Pick an env-argh-enment! (e.g. staging, production).\n\n"
+    exit
+  end
+end
+
+puts "\nBuilding #{env} site...\n\n"
+
+`bundle exec middleman build`
+
+if $?.exitstatus != 0
+  puts "\nThere be errors in that thar build. Swab the poop deck first."
+  exit
+end
+
+puts "\nBuild complete. Deploying to #{env}...\n\n"
+
+if env == 'production'
+  `rsync -zavr --exclude=.DS_Store ./build/ dylansm:/var/www/sites/rh.izo.me`
+else
+  `rsync -zavr --exclude=.DS_Store ./build/ dylansm:/var/www/sites/staging.izo.me`
+end
+
+if $?.exitstatus != 0
+  puts "\nThere be errors in that thar deploy, Matey! Walk the plank."
+  exit
+end
+
+puts "\nSite deployed successfully.\n\n"
