@@ -24,9 +24,9 @@ end
 puts "\nBuild complete. Deploying to #{env}...\n\n"
 
 if env == 'production'
-  `rsync -zavr --exclude=.DS_Store ./build/ dylansm:/var/www/sites/rh.izo.me`
+  `rsync -zavr --exclude=.DS_Store ./build/ dylansm:/webapps/rh.izo.me`
 else
-  `rsync -zavr --exclude=.DS_Store ./build/ dylansm:/var/www/sites/staging.izo.me`
+  `rsync -zavr --exclude=.DS_Store ./build/ dylansm:/webapps/staging.izo.me`
 end
 
 if $?.exitstatus != 0

@@ -82,7 +82,6 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 set :fonts_dir, 'fonts'
-
 #sprockets.append_path '/source/fonts'
 
 # Build-specific configuration

@@ -7,8 +7,10 @@
 # Ignore bundler config
 /.bundle
 
-# Ignore the build directory
-/build
+# Ignore everything in the build directory
+# making sure to keep build directory itself
+/build/*
+!/build/.gitkeep
 
 # Ignore cache
 /.sass-cache
