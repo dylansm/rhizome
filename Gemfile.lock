@@ -15,6 +15,7 @@ GEM
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.2.19)
     bson (3.0.1)
+    bson_ext (1.5.1)
     builder (3.2.2)
     capistrano (3.4.0)
       i18n
@@ -200,6 +201,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass
+  bson_ext
   builder (~> 3.0)
   capistrano (~> 3.4.0)
   capistrano-bundler
