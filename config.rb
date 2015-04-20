@@ -78,6 +78,7 @@ page "/feed.xml", layout: false
 #   end
 # end
 
+set :build_dir, 'public'
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'

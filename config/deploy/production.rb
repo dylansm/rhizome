@@ -1,3 +1,13 @@
+set :application, 'rh.izo.me'
+
+role :app, %w{dylansm}
+role :web, %w{dylansm}
+
+server "dylansm", roles: [:app, :web], user: 'dylansm'
+#
+set :deploy_to, "/webapps/#{fetch(:application)}"
+set :deploy_env, 'production'
+
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.

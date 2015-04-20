@@ -10,7 +10,9 @@ gem 'bootstrap-sass', require: false
 gem 'capistrano', '~> 3.4.0'
 gem 'capistrano-rvm'
 gem 'capistrano-bundler'
-gem 'capistrano-passenger'
+#gem 'capistrano-passenger'
+gem 'mongo'
+gem 'bson_ext'
 
 # For feed.xml.builder
 gem 'builder', '~> 3.0'

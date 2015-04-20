@@ -9,8 +9,8 @@
 
 # Ignore everything in the build directory
 # making sure to keep build directory itself
-/build/*
-!/build/.gitkeep
+/public/*
+!/public/.gitkeep
 
 # Ignore cache
 /.sass-cache
