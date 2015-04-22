@@ -10,9 +10,9 @@ gem 'bootstrap-sass', require: false
 gem 'capistrano', '~> 3.4.0'
 gem 'capistrano-rvm'
 gem 'capistrano-bundler'
-#gem 'capistrano-passenger'
-gem 'mongo'
-gem 'bson_ext'
+gem 'capistrano-passenger'
+#gem 'mongo'
+#gem 'bson_ext'
 
 # For feed.xml.builder
 gem 'builder', '~> 3.0'
@@ -20,6 +20,8 @@ gem 'builder', '~> 3.0'
 group :development, :test do
   gem 'guard'
   gem 'rspec'
-  gem 'guard-rspec'
+  gem 'guard-livereload', require: false
+  gem 'guard-rspec', require: false
+  gem 'guard-pow', require: false
 end
 

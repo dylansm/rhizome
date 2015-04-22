@@ -12,6 +12,7 @@ set :home, "/home/#{fetch(:user)}"
 set :rvm_ruby_prefix, "ruby-2.1.5"
 set :rvm_gemset_prefix, "rhizome"
 set :rvm_prefix, "#{fetch(:rvm_ruby_prefix)}@#{fetch(:rvm_gemset_prefix)}"
+set :passenger_restart_with_sudo, true
 #
 #after 'deploy:finishing', 'deploy:cleanup'
 
