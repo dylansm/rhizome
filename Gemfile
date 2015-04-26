@@ -11,6 +11,8 @@ gem 'capistrano', '~> 3.4.0'
 gem 'capistrano-rvm'
 gem 'capistrano-bundler'
 gem 'capistrano-passenger'
+gem 'rack-action'
+gem 'rack-router'
 #gem 'mongo'
 #gem 'bson_ext'
 

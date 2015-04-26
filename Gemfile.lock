@@ -150,8 +150,11 @@ GEM
       method_source (~> 0.8.1)
       slop (~> 3.4)
     rack (1.6.0)
+    rack-action (0.3.0)
+      rack
     rack-livereload (0.3.15)
       rack
+    rack-router (0.4.0)
     rack-test (0.6.3)
       rack (>= 1.0)
     rake (10.4.2)
@@ -217,4 +220,6 @@ DEPENDENCIES
   middleman (~> 3.3.10)
   middleman-blog (~> 3.5.3)
   middleman-livereload (~> 3.1.0)
+  rack-action
+  rack-router
   rspec
