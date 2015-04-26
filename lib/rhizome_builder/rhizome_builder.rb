@@ -1,15 +1,17 @@
-require_relative "./actions"
+require 'json'
+
+require_relative "./http_methods"
 require_relative "./errors"
 
 module RhizomeBuilder
   def self.call(env)
-    puts env.inspect
-    @request = Rack::Request.new env
-    method_sym = @request.env["REQUEST_METHOD"].downcase.to_sym
+    @request = Rack::Request.new(env)
+    method_sym = @request.request_method.downcase.to_sym
 
-    if Actions.respond_to? method_sym
-      method_obj = Actions.method method_sym
-      @response = method_obj.call(@request)
+    if HTTPMethods.respond_to? method_sym
+      HTTPMethods.request = @request
+      method_obj = HTTPMethods.method method_sym
+      @response = method_obj.call
       return @response
     else
       return Errors.new.bad_request

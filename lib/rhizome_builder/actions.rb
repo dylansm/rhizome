@@ -1,20 +1,14 @@
-require_relative './auth'
-
 module RhizomeBuilder
-  class Actions
-    extend Auth
-    #puts Auth.authorize!
+  module ClassMethods
 
-    class << self
-      def get(request)
-        authorize!
-        [200, {'Content-Type' => 'text/html'}, ["Carlos: #{request.inspect}"]]
-      end
+  end
 
-      def post(request)
-        authorize!
-        [200, {'Content-Type' => 'text/html'}, ["Carlos Post"]]
-      end
-    end
+  module InstanceMethods
+
+  end
+
+  def self.included(receiver)
+    receiver.extend         ClassMethods
+    receiver.send :include, InstanceMethods
   end
 end
