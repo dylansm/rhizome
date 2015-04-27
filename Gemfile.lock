@@ -49,6 +49,8 @@ GEM
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
     diff-lcs (1.2.5)
+    dropbox-sdk (1.6.4)
+      json
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -71,6 +73,10 @@ GEM
       em-websocket (~> 0.5)
       guard (~> 2.8)
       multi_json (~> 1.8)
+    guard-middleman (0.5.0)
+      guard (>= 1.4.0)
+      guard-compat (~> 1.1)
+      middleman (>= 3.0.0)
     guard-pow (2.0.0)
       guard (~> 2.0)
     guard-rspec (4.5.0)
@@ -213,8 +219,10 @@ DEPENDENCIES
   capistrano-bundler
   capistrano-passenger
   capistrano-rvm
+  dropbox-sdk
   guard
   guard-livereload
+  guard-middleman
   guard-pow
   guard-rspec
   middleman (~> 3.3.10)

@@ -11,6 +11,7 @@ gem 'capistrano', '~> 3.4.0'
 gem 'capistrano-rvm'
 gem 'capistrano-bundler'
 gem 'capistrano-passenger'
+gem 'dropbox-sdk'
 gem 'rack-action'
 gem 'rack-router'
 #gem 'mongo'
@@ -25,5 +26,6 @@ group :development, :test do
   gem 'guard-livereload', require: false
   gem 'guard-rspec', require: false
   gem 'guard-pow', require: false
+  gem 'guard-middleman', require: false
 end
 

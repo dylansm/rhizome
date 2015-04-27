@@ -95,3 +95,12 @@ guard 'livereload' do
   # Rails Assets Pipeline
   #watch(%r{(app|vendor)(/assets/\w+/(.+\.(css|js|html|png|jpg))).*}) { |m| "/assets/#{m[3]}" }
 end
+
+guard 'middleman' do
+  watch(%r{^config.rb})
+  watch(%r{^data/.*})
+  watch(%r{^source/.*})
+
+  watch(%r{^views/.*})
+  watch(%r{^public/.*})
+end
