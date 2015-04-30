@@ -14,16 +14,6 @@
 @import 'modules/_defaults.scss';
 
 //----------------------------------*\
-// PARTIALS
-//----------------------------------*/
-
-@import 'partials/_header.scss';
-@import 'partials/_nav.scss';
-@import 'partials/_sidebar.scss';
-@import 'partials/_main.scss';
-@import 'partials/_footer.scss';
-
-//----------------------------------*\
 // OBJECTS & MODULES
 //----------------------------------*/
 
@@ -37,6 +27,16 @@
 // Enhancement modules
 @import 'modules/_breakpoints.scss';
 @import 'modules/_print.scss';
+
+//----------------------------------*\
+// PARTIALS
+//----------------------------------*/
+
+@import 'partials/_header.scss';
+@import 'partials/_nav.scss';
+@import 'partials/_sidebar.scss';
+@import 'partials/_main.scss';
+@import 'partials/_footer.scss';
 
 //----------------------------------*\
 // VENDOR

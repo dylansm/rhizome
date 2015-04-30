@@ -1,3 +1,35 @@
-.footer {
+#footer {
+  .center-block {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background: $vellum;
+    width: 100%;
+    /*margin-top: -3em;*/
+    margin-left: -14px;
+    /*border-top: 1px solid $grey-lt;*/
+    padding-top: 1em;
 
+    @media (min-width: $screen-sm-min) {
+      & {
+        margin-left: -28px;
+      }
+    }
+
+    @media (min-width: $screen-md-min) {
+      & {
+        margin-left: -42px;
+      }
+    }
+
+    p {
+      @include helv;
+      font-size: .9em;
+      color: $grey-md;
+
+      span {
+        color: $grey-md-lt;
+      }
+    }
+  }
 }

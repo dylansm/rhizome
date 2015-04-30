@@ -1,3 +1,44 @@
-.header {
+header {
+  h1 {
+    position: fixed;
+    top: -20px;
+    width: 100%;
+    padding: .45em 0 .1em 1em;
+    background: $vellum;
+    margin-left: -14px;
+    text-align: center;
+
+    @media (min-width: $screen-sm-min) {
+      & {
+        margin-left: -28px;
+      }
+    }
+
+    @media (min-width: $screen-md-min) {
+      & {
+        margin-left: -42px;
+      }
+    }
+
+    a {
+      color: #555 !important;
+      display: inline-block;
+      height: 2em;
+      background: url(image_path('rhizome_logomark.svg')) 0 0 no-repeat;
+      margin: 0 auto 0 -30px;
+      padding-top: 14px;
+      padding-left: 54px;
+
+      @media (min-width: $screen-sm-min) {
+        & {
+          padding-left: 58px;
+        }
+      }
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
 
 }
