@@ -100,8 +100,8 @@ em {
 }
 
 blockquote {
-  border-left: none;
-  background: url(image_path('squiggle.svg')) 6px 0 repeat-y;
+  border-left: 10px solid $grey-dk;
+  /*background: url(image_path('squiggle.svg')) 6px 0 repeat-y;*/
   margin-top: 1.2em;
   padding-left: 1em;
 
