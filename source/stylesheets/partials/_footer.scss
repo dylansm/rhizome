@@ -5,20 +5,18 @@
     text-align: center;
     background: $vellum;
     width: 100%;
-    /*margin-top: -3em;*/
-    margin-left: -14px;
-    /*border-top: 1px solid $grey-lt;*/
-    padding-top: 1em;
+    padding-top: .8em;
+    padding-bottom: .3em;
 
     @media (min-width: $screen-sm-min) {
       & {
-        margin-left: -28px;
+        /*margin-left: -28px;*/
       }
     }
 
     @media (min-width: $screen-md-min) {
       & {
-        margin-left: -42px;
+        /*margin-left: -42px;*/
       }
     }
 
@@ -26,6 +24,7 @@
       @include helv;
       font-size: .9em;
       color: $grey-md;
+      margin-top: 0;
 
       span {
         color: $grey-md-lt;

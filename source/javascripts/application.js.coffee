@@ -5,7 +5,7 @@ $ ->
   RZI.$footer = $("footer#footer .center-block")
   RZI.resizeFixed = (viewport) ->
     if viewport.is '>xs'
-      RZI.logoWidth = logo.parentNode.parentNode.offsetWidth
+      RZI.logoWidth = Math.floor(logo.parentNode.parentNode.offsetWidth)
     else
       RZI.logoWidth = "100%"
     $("header h1").css('width', RZI.logoWidth)

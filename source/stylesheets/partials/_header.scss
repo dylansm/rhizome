@@ -5,18 +5,17 @@ header {
     width: 100%;
     padding: .45em 0 .1em 1em;
     background: $vellum;
-    margin-left: -14px;
     text-align: center;
 
     @media (min-width: $screen-sm-min) {
       & {
-        margin-left: -28px;
+        /*margin-left: -28px;*/
       }
     }
 
     @media (min-width: $screen-md-min) {
       & {
-        margin-left: -42px;
+        /*margin-left: -42px;*/
       }
     }
 

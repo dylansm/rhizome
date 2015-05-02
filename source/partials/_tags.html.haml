@@ -1,0 +1,8 @@
+%h4.tags
+  %span
+    [
+  - article.tags.each_with_index do |tag, i|
+    - comma = (i < article.tags.length - 1) ? ', ' : ''
+    = link_to "#{tag}#{comma}", tag_path(tag)
+  %span
+    ]

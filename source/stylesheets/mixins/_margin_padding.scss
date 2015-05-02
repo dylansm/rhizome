@@ -1,0 +1,6 @@
+@mixin margin-padding($amt) {
+  p, h2, h3, h4, blockquote, ul, ol {
+    margin-left: $amt;
+    margin-right: $amt;
+  }
+}

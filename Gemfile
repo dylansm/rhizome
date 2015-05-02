@@ -14,6 +14,7 @@ gem 'capistrano-passenger'
 gem 'dropbox-sdk'
 gem 'rack-action'
 gem 'rack-router'
+gem 'nokogiri'
 #gem 'mongo'
 #gem 'bson_ext'
 
