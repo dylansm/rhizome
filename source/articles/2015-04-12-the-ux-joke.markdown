@@ -6,7 +6,7 @@ tags: ux, design
 
 > A user interface is like a joke—if you have to explain it, it’s probably not that good.
 
-I saw this in a post somewhere recently and immediately liked it. It's painful to watch someone interact with a design and not know what to do with it. Often, due to the exigencies of time or budget, designers reluctantly label elements with the action they want people to know about, instead of addressing the underlying layout or interface problems.
+I saw this somewhere recently and immediately liked it. It's painful to watch someone interact with a design and not know what to do with it. Often, due to the exigencies of time or budget, designers reluctantly label elements with the action they want people to know about, instead of addressing the underlying layout or interface problems.
 
 ![][1]{: class="bleed" }
 Obscured functionality.
