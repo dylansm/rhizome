@@ -29,6 +29,13 @@
 @import 'modules/_print.scss';
 
 //----------------------------------*\
+// VENDOR
+//----------------------------------*/
+
+/*@import 'vendor/bootstrap/variables.scss';*/
+@import 'bootstrap/variables';
+
+//----------------------------------*\
 // PARTIALS
 //----------------------------------*/
 
@@ -37,9 +44,3 @@
 @import 'partials/_sidebar.scss';
 @import 'partials/_main.scss';
 @import 'partials/_footer.scss';
-
-//----------------------------------*\
-// VENDOR
-//----------------------------------*/
-
-@import 'vendor/_external.scss';
