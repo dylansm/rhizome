@@ -25,3 +25,32 @@
 .ctr {
   text-align: center;
 }
+
+.pg {
+  @include helv;
+  font-size: 1.3em;
+}
+
+.left {
+  float: left;
+
+  &.pg {
+    margin-top: -1.8em;
+
+    a:before {
+      content: "« "
+    }
+  }
+}
+
+.right {
+  float: right;
+
+  &.pg {
+    margin-top: -1.8em;
+
+    a:after {
+      content: " »"
+    }
+  }
+}

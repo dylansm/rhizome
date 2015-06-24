@@ -6,28 +6,17 @@
     background: $vellum;
     width: 100%;
     padding-top: .8em;
-    padding-bottom: .3em;
-
-    @media (min-width: $screen-sm-min) {
-      & {
-        /*margin-left: -28px;*/
-      }
-    }
-
-    @media (min-width: $screen-md-min) {
-      & {
-        /*margin-left: -42px;*/
-      }
-    }
+    padding-bottom: .4em;
 
     p {
       @include helv;
       font-size: .9em;
-      color: $grey-md;
-      margin-top: 0;
+      color: $grey-md-dk;
+      margin-top: 0em;
 
       span {
-        color: $grey-md-lt;
+        color: $grey-md;
+        margin-right: .1em;
       }
     }
   }

@@ -9,10 +9,10 @@
       Rhizome Industries
     = feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed"
     = stylesheet_link_tag 'all'
-  %body
+  %body{"data-pages": num_pages}
     .main.col-xs-12.col-sm-8.center-block
       = partial "partials/header"
-      #main{:role => "main"}
+      #main.listing{:role => "main"}
         = yield
         = partial "partials/footer"
       -#%aside
