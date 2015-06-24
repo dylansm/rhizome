@@ -31,14 +31,13 @@ $ ->
   RZI.scrollListener = ->
     $(window).one("scroll", -> # unbinds itself every time it fires
       if $(window).scrollTop() >= $(document).height() - $(window).height() - 100
-        RZI.fetchPage()
+        RZI.fetchPage() if RZI.totalPages
 
       if RZI.curPage < RZI.totalPages
         setTimeout(RZI.scrollListener, 200) # rebinds itself after 200ms
     )
 
   RZI.scrollListener()
-
 
   RZI.fetchPage = ->
     nextPage = RZI.curPage + 1

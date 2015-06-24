@@ -13,14 +13,16 @@
     .main.col-xs-12.col-sm-8.center-block
       = partial "partials/header"
       #main{:role => "main"}
-        %h2.title
-          = current_page.data.title
-          %span= current_page.date.strftime('%b %e, %Y')
+        .entry
+          %h2.title
+            = current_page.data.title
+            %span= current_page.date.strftime('%b %e, %Y')
 
-        = yield
+          = yield
 
-        = partial "partials/tags", locals: { article: current_page }
+          = partial "partials/tags", locals: { article: current_page }
         = partial "partials/footer"
+
       -#%aside
         %h2 Recent Articles
         %ol
