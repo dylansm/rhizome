@@ -13,6 +13,6 @@ The bridge is a [Mastery][2] Offset Bridge with Vibrato. The pickups are [Lindy 
 
 The body, being a large slab of solid maple, makes this guitar quite heavy.
 
-[1]: http://rhizome.s3.amazonaws.com/images/diy/sparkle.jpg
-[2]: http://www.masterybridge.com
-[3]: http://www.fralinpickups.com
+[1]: https://rhizome.s3.amazonaws.com/images/diy/sparkle.jpg
+[2]: https://www.masterybridge.com
+[3]: https://www.fralinpickups.com

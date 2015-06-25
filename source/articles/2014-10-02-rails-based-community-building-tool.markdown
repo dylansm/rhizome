@@ -12,6 +12,6 @@ This internal project with [Owen Jones][2] was one of the more fun projects I ha
 ![][3]
 *Features included*
 
-[1]: http://rhizome.s3.amazonaws.com/images/adobe/gatherfeed_1.jpg "Community building tool"
-[2]: http://www.whoisowenjones.com
-[3]: http://rhizome.s3.amazonaws.com/images/adobe/gatherfeed_2.jpg "Community building tool"
+[1]: https://rhizome.s3.amazonaws.com/images/adobe/gatherfeed_1.jpg "Community building tool"
+[2]: https://www.whoisowenjones.com
+[3]: https://rhizome.s3.amazonaws.com/images/adobe/gatherfeed_2.jpg "Community building tool"

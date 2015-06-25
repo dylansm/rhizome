@@ -10,7 +10,7 @@ This hand-built case is dovetailed walnut. The juxtaposition between the organic
 
 ![][4]
 
-[3]: http://www.makenoisemusic.com
-[2]: http://www.verboselectronics.com
-[1]: http://rhizome.s3.amazonaws.com/images/diy/modular.jpg
-[4]: http://rhizome.s3.amazonaws.com/images/diy/modular_2.jpg
+[3]: https://www.makenoisemusic.com
+[2]: https://www.verboselectronics.com
+[1]: https://rhizome.s3.amazonaws.com/images/diy/modular.jpg
+[4]: https://rhizome.s3.amazonaws.com/images/diy/modular_2.jpg

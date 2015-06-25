@@ -24,6 +24,6 @@ We are everyday confronted by applications that challenge us to quickly decode t
 Guides, symbols and explanatory text can be helpful aids to understanding an application's terrain, particularly where there are multiple layers of interface depth. However, labels that serve only to restore something that was never removed in the first place should be avoided.
 
 
-[1]: http://rhizome.s3.amazonaws.com/images/thinking/powderbird.jpg
-[2]: http://rhizome.s3.amazonaws.com/images/thinking/engzell.jpg
-[3]: http://rhizome.s3.amazonaws.com/images/thinking/tracksmith.jpg
+[1]: https://rhizome.s3.amazonaws.com/images/thinking/powderbird.jpg
+[2]: https://rhizome.s3.amazonaws.com/images/thinking/engzell.jpg
+[3]: https://rhizome.s3.amazonaws.com/images/thinking/tracksmith.jpg

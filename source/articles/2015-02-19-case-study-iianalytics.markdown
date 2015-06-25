@@ -10,5 +10,5 @@ When Jack Welch and Andrew Lightman met with me at [Owen Jones][2] to discuss th
 
 My initial biases were misguided, however. This is a portfolio piece because of the results. Nothing is better than having a happy customer who uses and benefits daily from a tool you build. In the end, the PHP-based CMS we worked with was right-sized and appropriate for the business, has proven reliable and scalable, and the site deserves to be showcased for that reason.
 
-[1]: http://rhizome.s3.amazonaws.com/images/iia/iia.jpg
-[2]: http://whoisowenjones.com
+[1]: https://rhizome.s3.amazonaws.com/images/iia/iia.jpg
+[2]: https://whoisowenjones.com

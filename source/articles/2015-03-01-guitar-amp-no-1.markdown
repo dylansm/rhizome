@@ -10,5 +10,5 @@ This project used the "Champ Ultra" chassis from [Ceriatone][2] without tubes or
 
 The head and speaker cabinets are made with hand-cut dovetail-joined maple. The speaker cabinet holds a Celestion Gold 10" speaker.
 
-[2]: http://www.ceriatone.com
-[1]: http://rhizome.s3.amazonaws.com/images/diy/amp_triptych.jpg "Tweed Champ Clone with Tremolo"
+[2]: https://www.ceriatone.com
+[1]: https://rhizome.s3.amazonaws.com/images/diy/amp_triptych.jpg "Tweed Champ Clone with Tremolo"
